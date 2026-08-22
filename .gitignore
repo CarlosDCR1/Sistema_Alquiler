@@ -1,0 +1,86 @@
+# ==========================================
+# PROYECTO DESARROLLO WEB
+# Sistema de Inventario, Préstamos y Devoluciones
+# ==========================================
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains
+.idea/
+*.iml
+
+# PHP
+/vendor/
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+config.local.php
+database.local.php
+php.ini
+
+# JavaScript / Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.yarn/
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+*.temp
+*.cache
+*.bak
+*.old
+*.local
+
+# Base de datos MySQL / MariaDB
+*.sqlite
+*.sqlite3
+*.db
+*.sql.bak
+*.dump
+*.backup
+
+# Los archivos .sql normales NO se ignoran.
+# Ejemplo: database/inventario.sql
+
+# Archivos generados
+dist/
+build/
+coverage/
+.cache/
+
+# Sistema operativo
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Sesiones PHP
+sessions/
+
+# Archivos subidos por usuarios
+uploads/*
+!uploads/.gitkeep
+
+# Seguridad
+*.pem
+*.key
+*.crt
+
+# Credenciales
+credentials.json
+
+# Archivos de prueba locales
+*.test
